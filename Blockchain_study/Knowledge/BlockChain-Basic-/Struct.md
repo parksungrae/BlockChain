@@ -66,7 +66,7 @@
 
         데이터베이스의 상태를 변환시키는 하나의 논리적 기능을 수행하기 위한 **작업의 단위** 또는 한꺼번에 모두 수행되어야 할 **일련의 연산들을 의미**
 
-### Genesis Block
+## Genesis Block
 
 
 - A genesis block is the first block of a block chain.
