@@ -6,35 +6,36 @@
 
 ## Core Project
 
-### Vault
+- ### Vault 
+    <br>
 
-- **수익률을 창출**하는 자본 풀
+    **수익률을 창출**하는 자본 풀
 
-    1. 가스비를 조정
-    2. 수익 창출 및 조정 프로세스
-    3. 수익가능성에 따른 자동 자본 이동
-    4. DeFi나 Yearn 프로젝트의 근본적인 이해를 가지지 않아도되는 수동적인 투자 전략
+        1. 가스비를 조정
+        2. 수익 창출 및 조정 프로세스
+        3. 수익가능성에 따른 자동 자본 이동
+        4. DeFi나 Yearn 프로젝트의 근본적인 이해를 가지지 않아도되는 수동적인 투자 전략
 
-### Earn
+- ### Earn
 
-- **이자**관련 프로젝트
+    **이자**관련 프로젝트
 
-    Yearn는 원래 대출관련 프로젝트를 제공했다.
+        Yearn는 원래 대출관련 프로젝트를 제공했다.
 
-    dYDX, AAVE, Compound를 이동하며 자금의 이자율을 올렸다.
+        dYDX, AAVE, Compound를 이동하며 자금의 이자율을 올렸다.
 
-    Yearn의 페이지를 통해 대출관련 스마트 계약을 작성할 수 있었고 수익을 올릴 수 있었다.
+        Yearn의 페이지를 통해 대출관련 스마트 계약을 작성할 수 있었고 수익을 올릴 수 있었다.
 
-### Zap
+- ### Zap
 
-- **유동성** 풀의 **수수료**를 통한 수익
+    - **유동성** 풀의 **수수료**를 통한 수익
 
-    사용자가 [Curve.finance](https://www.notion.so/Curve-finance-068ebbca20e1402db43a14c15a2d374d)의 유동성 제공자를 통해 <수수료로 5개의 스테이블 코인 (BUSD, DAI, USDC, USDT, TUSD) 와 <br>
-    Curve 의 y.curve.fi, busd.curve.f 2개 풀로 Zap을 해 수익을 올리는 것
+        사용자가 [Curve.finance](https://www.notion.so/Curve-finance-068ebbca20e1402db43a14c15a2d374d)의 유동성 제공자를 통해 <수수료로 5개의 스테이블 코인 (BUSD, DAI, USDC, USDT, TUSD) 와 <br>
+        Curve 의 y.curve.fi, busd.curve.f 2개 풀로 Zap을 해 수익을 올리는 것
 
-### Cover
+- ### Cover
 
-- 금전적 손실에 대한 보장을 받을 수 있는 **보험**
+    - 금전적 손실에 대한 보장을 받을 수 있는 **보험**
 
 Nexus Mutual에 의해 보장됨
 

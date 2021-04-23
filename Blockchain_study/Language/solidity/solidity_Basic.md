@@ -44,13 +44,8 @@ Person[] people;
 
 ### **가시성(visiability)**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d824752-ac0d-4320-bee8-101fce4fbe6c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d824752-ac0d-4320-bee8-101fce4fbe6c/Untitled.png)
+<img src = "/Image/solidity_visiability.png">
 
-<img src = "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d824752-ac0d-4320-bee8-101fce4fbe6c/Untitled.png">
-
-
-
-[https://noooop.tistory.com/entry/Solidity-공부-Visibility-가시성](https://noooop.tistory.com/entry/Solidity-%EA%B3%B5%EB%B6%80-Visibility-%EA%B0%80%EC%8B%9C%EC%84%B1)
 
 - public(모든 방법으로 접근 가능)
 - external(다른 컨트랙트, 트랜잭션을 통해서만 호출)
