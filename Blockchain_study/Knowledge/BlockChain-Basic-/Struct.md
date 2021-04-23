@@ -1,9 +1,9 @@
-## BlockChain Structure
+# BlockChain Structure
 
 ![https://miro.medium.com/max/875/1*0M_FNSM70fKc2LEspDgXpg.png](https://miro.medium.com/max/875/1*0M_FNSM70fKc2LEspDgXpg.png)
 
 
-- ## Hearder
+- ## Header
     - **Hash of the block**
 
         블록의 **해시값**이 담긴 곳

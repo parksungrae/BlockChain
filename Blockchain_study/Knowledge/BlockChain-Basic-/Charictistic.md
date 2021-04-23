@@ -1,4 +1,4 @@
-## How it works & Advantage ?
+# How it works & Advantage ?
 
 1. 네트워크에 참여하는 **모든 사용자**가 해시값으로 연결된 블록체인 장부를 가지고 있게 되어
 

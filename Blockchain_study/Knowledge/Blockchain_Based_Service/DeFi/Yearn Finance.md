@@ -2,9 +2,9 @@
 
 
 **Yearn Finance**는 이더리움에서 최고클래스의 **대출 프로토콜, 유동성 풀, 커뮤니티**에 의해 
-운영되는 이자농사 전략을 통해 다양한 자산 예금자들이 고위험 조정수익을 창출할 수 있는 **탈중앙화 금융** 제품군
+운영되는 <br>이자농사 전략을 통해 다양한 자산 예금자들이 고위험 조정수익을 창출할 수 있는 **탈중앙화 금융** 제품군
 
-## **Core Project**
+## Core Project
 
 ### Vault
 
@@ -29,7 +29,8 @@
 
 - **유동성** 풀의 **수수료**를 통한 수익
 
-    사용자가 [Curve.finance](https://www.notion.so/Curve-finance-068ebbca20e1402db43a14c15a2d374d)의 유동성 제공자를 통해 수수료로 5개의 스테이블 코인 (BUSD, DAI, USDC, USDT, TUSD) 와 Curve 의 y.curve.fi, busd.curve.f 2개 풀로 Zap을 해 수익을 올리는 것
+    사용자가 [Curve.finance](https://www.notion.so/Curve-finance-068ebbca20e1402db43a14c15a2d374d)의 유동성 제공자를 통해 <수수료로 5개의 스테이블 코인 (BUSD, DAI, USDC, USDT, TUSD) 와 <br>
+    Curve 의 y.curve.fi, busd.curve.f 2개 풀로 Zap을 해 수익을 올리는 것
 
 ### Cover
 
