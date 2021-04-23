@@ -47,7 +47,7 @@ class Blockchain:
         while current_index < len(chain):
             block = chain[current_index]
             print(f'{last_block}')
-            print(f'{block}')
+            print(f'{block}')   
             print("\n-----------\n")
             # Check that the hash of the block is correct
             last_block_hash = self.hash(last_block)
@@ -291,3 +291,7 @@ if __name__ == '__main__':
     port = args.port
 
     app.run(host='0.0.0.0', port=port)
+
+# 5000 receipt : ad6d3b5146f54033a129fe1d3784914d
+# 5001 receipt : 2064ba6d54544f87bb6d3643de6f6694
+# 5002 receipt : ad6d3b5146f54033a129fe1d3784914d
