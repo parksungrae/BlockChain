@@ -1,6 +1,5 @@
-## Blockchain Transaction
+# Blockchain Transaction
 
----
 - Key
 
     **코인에 대한 소유권**을 입증시켜주는 수단
