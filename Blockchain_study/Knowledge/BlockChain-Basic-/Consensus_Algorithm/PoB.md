@@ -7,4 +7,6 @@
 ## Burn 이란?
 
 - **개인키**가 없는 암호화폐 지갑 주소로 암호화폐를 전송하여 다시는 사용하지 못하게 한다.
-- <>
+
+- 정리 링크
+<https://github.com/parksungrae/BlockChain/blob/main/Blockchain_study/Knowledge/Glossary/Coin_burn.md>

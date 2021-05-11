@@ -7,7 +7,6 @@ contract('Lottery', function([deployer, user1, user2]) {
     let bet_block_interval = 3;
 
     beforeEach(async () => {
-        console.log('Before each')
         lottery = await Lottery.new()
     })
 
@@ -20,7 +19,7 @@ contract('Lottery', function([deployer, user1, user2]) {
         it('should fail when the bet money is not 0.005 ETH',async () => {
             await assertRevert(lottery.bet('0xab', {from : user1, value : 4000000000000000} ))
         })
-        it.only('should put the bet to the bet queue with 1 bet', async () => {
+        it('should put the bet to the bet queue with 1 bet', async () => {
             let receipt = await lottery.bet('0xab', {from : user1, value : betAmount} )
             console.log(receipt);
 
@@ -39,7 +38,28 @@ contract('Lottery', function([deployer, user1, user2]) {
             
             await expectEvent.inLogs(receipt.logs, 'BET')
         })
+    })
 
+    describe.only('isMatch', function() {
+        let blockHash = '0xab'
 
+        it('Should return BettingResult.Win when two characters match', async () => {
+            let matchingResult = await lottery.isMatch('0xab', blockHash);
+            assert.equal(matchingResult, 1);
+
+        })
+
+        it('Should return BettingResult.Draw when two characters match', async () => {
+            let matchingResult = await lottery.isMatch('0xfb', blockHash);
+            assert.equal(matchingResult, 2);
+
+            matchingResult = await lottery.isMatch('0xaf', blockHash);
+            assert.equal(matchingResult, 2);
+        })
+
+        it('Should return BettingResult.Fail when two characters match', async () => {
+            let matchingResult = await lottery.isMatch('0xff', blockHash);
+            assert.equal(matchingResult, 0);
+        })
     })
 });

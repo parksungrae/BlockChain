@@ -24,7 +24,6 @@
     A, B, C, D는 학생
 
     코드
-
     1. 가장 많이 투표된 사람이 당선
     2. 두번째로 된 사람이 부반장
     3. 다른사람 이름이 있거나 잘못 썻을 시 무효
@@ -40,6 +39,41 @@
 
 2. 개인키는 절대 다른 사람과 공유해서는 안됩니다.
 3. 주소 + 개인키는 그 어떤 데이터베이스에도 저장되지 않습니다. <br> 사용자만이 이 정보를 통제 할 수 있습니다.
+
+
+## Transaction
+
+- **Account**
+
+    ### Component
+
+    1. **Nonce**
+        - EOA : 보내진 TX의 수
+        - CA : 생성된 Contract 수
+
+    2. **Balance**
+
+        Account가 소유하고있는 Wei의 양
+
+    3. **StorageRoot**
+
+        머클 패트리시아 트리(account의 요소들로 만들어진 hash trie) 의 루트 노드의 해시값 
+
+    4. **Codehash**
+
+        SmartContract의 bytecode를 나타낸 Hash
+
+    <img src = "Image\Eth_account">
+
+    - **EoA (External Owned Account)**
+
+         개인키로 생성된 계정으로 인증등을 담당하며 개인키를 통한 서명을 하는 계정
+
+    - **CA (Contract Account)**
+
+        스마트 컨트랙트의 역할을 하는 계정으로 컨트랙트의 배포된 
+        코드를 포함하며 EOA에 의해 제어됨
+
 
 ## 관련 소프트웨어
 
@@ -85,7 +119,3 @@
     5. 리믹스는 소규모 스마트 계약을 신속하게 테스트하기에 좋다.
 
 
-
-## Ganache
-
-- 블록체인 개발에 사용되는 가상 인 메모리 블록체인
