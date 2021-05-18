@@ -1,4 +1,8 @@
-**16진법(Hexadecimal)**은 십육을 밑으로 하는 기수법이다.
+# Hex
+
+**16진법(Hexadecimal)은** 십육을 밑으로 하는 기수법이다.
+
+---
 
 ## Characteristic
 
