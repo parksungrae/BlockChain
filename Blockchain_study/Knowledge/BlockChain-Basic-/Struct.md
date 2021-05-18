@@ -49,7 +49,7 @@
 
         **Size** : 4bytes,  8hex
 
-        what is timestamp?
+        [what is timestamp?](https://www.notion.so/HEX-2727b3b1640a48f6a2a6b932df469d1e)
 
     - **Bits**, **target**
 
